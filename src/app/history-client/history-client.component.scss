@@ -1,0 +1,40 @@
+.container{
+    height: 100%;
+    width: 90%;
+}
+
+.table{
+    width: 100%;
+}
+
+.container-data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    flex-direction: row;
+    width: 200;
+    margin-bottom:  10;
+}
+
+.btn-azul {
+    background-color: blue;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    
+    &:hover {
+      background-color: darkblue;
+    }
+    
+    &:focus {
+      outline: none;
+      box-shadow: 0 0 0 3px rgba(0, 0, 255, 0.5);
+    }
+    
+    &:active {
+      background-color: navy;
+    }
+  }
